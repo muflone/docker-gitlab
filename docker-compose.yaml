@@ -3,7 +3,7 @@ version: '3'
 services:
    gitlab:
      container_name: gitlab
-     image: gitlab/gitlab-ce:12.10.14-ce.0
+     image: gitlab/gitlab-ce:13.0.14-ce.0
      networks:
        containers:
          ipv4_address: 192.168.1.240
